@@ -16,14 +16,17 @@ function Header() {
           <Typography variant="h6" className={classes.title}>
             Explore New Places
           </Typography>
-          {/* <Autocomplete>
-            <div className={classes.search}>
-              <div className={classes.searchIcon}>
-                <SearchIcon />
-              </div>
-              <InputBase placeholder="Search?" className={{root: classes.inputRoot, input: classes.inputInput}} />
-            </div>
-          </Autocomplete> */}
+          {/* <Autocomplete> */}
+          <div className={classes.search}>
+            {/* <div className={classes.searchIcon}>
+              <SearchIcon />
+            </div> */}
+            <InputBase
+              placeholder="Search..."
+              className={{ root: classes.inputRoot, input: classes.inputInput }}
+            />
+          </div>
+          {/* </Autocomplete> */}
         </Box>
       </Toolbar>
     </AppBar>
